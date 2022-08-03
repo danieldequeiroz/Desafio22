@@ -32,24 +32,13 @@ const SearchScreen: React.FC<SearchScreenProps> = ({
     const [userData, setData] = useState<dataTypes | any>([]);
     const [isLoading, setLoading] = useState<Boolean>(false);
 
-    /*const {loading, data, error} = useQuery(GET_USERS, {
-        variables: {
-            query: "ufpb",
-            type: "USER",
-            numOfResults: 10
-        }
-    });
-
-    if(!loading){
-        console.log(data);
-        console.log(error);
-    }*/
+   
 
     const [getUsers, {loading, data, error}] = useLazyQuery(SEARCH_USERS);
         
     getUsers({
         variables: {
-            query: "rodriguesms",
+            query: "queiroz.daniel",
             type: "USER",
             numOfResults: 10
         }
