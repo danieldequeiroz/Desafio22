@@ -45,7 +45,7 @@ const ProfileScreen: React.FC<ProfileScreenProps> = ({
 
     const {loading, data, error} = useQuery(GET_USER, {
         variables: {
-            login: "Gabriel-Alexandre"
+            login: "Daniel-Queiroz"
         }
     });
 
