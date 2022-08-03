@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import SearchBar from '../../components/searchBar/searchBar'
