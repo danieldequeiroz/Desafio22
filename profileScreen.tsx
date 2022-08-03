@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import React, {useState, useEffect} from 'react';
 import {View, Text, Button} from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack'
