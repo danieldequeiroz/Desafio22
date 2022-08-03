@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import React, {useEffect, useState} from 'react'
 import { View, Text, StyleSheet, ActivityIndicator } from 'react-native'
 import { FlatList } from 'react-native-gesture-handler'
