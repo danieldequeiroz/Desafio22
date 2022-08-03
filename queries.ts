@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import { gql } from '@apollo/client'
 
 export const SEARCH_USERS = gql`
