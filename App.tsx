@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import { ApolloProvider } from '@apollo/client';
 import React from 'react';
 import NavigationModule from './src/navigation/NavigationModule';
