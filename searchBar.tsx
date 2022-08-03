@@ -15,13 +15,6 @@ const SearchBar: React.FC<SearchBarProps> = ({
     userName, setUserName, searchUser, setData, isLoading
 }) => {
 
-    //api
-
-    //[] => Array
-    //{} => Object
-    //[{}, {}, {}, ..., {}] Array<Object>
-
-
     return(
         <View style={styles.container}>
             {
