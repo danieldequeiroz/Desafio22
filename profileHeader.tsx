@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import React from 'react'
 import { View, Text, Image, StyleSheet } from 'react-native'
 import { Roboto_700Bold, Roboto_400Regular } from '@expo-google-fonts/roboto'
