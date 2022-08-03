@@ -1,3 +1,4 @@
+//Código de Daniel de Queiroz Cavalcanti
 import React from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 import { IconButton, Colors, ActivityIndicator } from 'react-native-paper';
